@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/freelance-copywriter/static/css/main.012fb158.css",
+    "main.js": "/freelance-copywriter/static/js/main.0f472c91.js",
+    "index.html": "/freelance-copywriter/index.html",
+    "main.012fb158.css.map": "/freelance-copywriter/static/css/main.012fb158.css.map",
+    "main.0f472c91.js.map": "/freelance-copywriter/static/js/main.0f472c91.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.012fb158.css",
+    "static/js/main.0f472c91.js"
+  ]
+}
