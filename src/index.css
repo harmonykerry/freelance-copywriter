@@ -1,0 +1,1027 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "sweet-sans-pro", sans-serif;
+  line-height: 1.55;
+  /* background-color: #bebcbc */
+}
+
+
+
+.top-header {
+  padding: 1em 2.5rem;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 15%;
+  left: 2.5rem;
+  cursor: pointer;
+}
+
+@media (max-width: 400px) {
+  .hidden-callme {
+    display: none;
+  }
+}
+
+
+
+
+.callme,
+.menu_btn {
+  margin: 0.85em;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  border-radius: 100%;
+  justify-content: center;
+  border: solid 1px rgb(0, 0, 0);
+  width: 5.0em;
+  height: 5.0em;
+  cursor: pointer;
+  position: relative;
+}
+
+.callme {
+  border-radius: 0;
+  text-decoration: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  user-select: none;
+  background: transparent;
+  border: none;
+  text-decoration: none;
+  border: solid 1px transparent;
+}
+
+
+/* .ListItemMenu {
+  display: none;
+} */
+
+.mobile-menu {
+  position: fixed;
+  top: 20%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(25, 25, 25);
+  color: rgb(255, 255, 255);
+  animation: fadeInRight 1s ease-in;
+
+
+}
+
+.black-background-mobile {
+  background-color: rgb(25, 25, 25);
+  color: #ffffff;
+  /* You can adjust the opacity as needed */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 998;
+  margin-right: -1em;
+
+}
+
+@media (min-width: 769px) {
+  .mobile-menu {
+    top: 20%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+
+}
+
+
+
+
+
+.mobile-menu span {
+  font-style: italic;
+  font-size: 0.7em;
+
+}
+
+@media (max-width: 400px) {
+  .mobile-menu span {
+    font-style: italic;
+    font-size: 0.2em;
+
+  }
+}
+
+
+.mobile_btn {
+  border: solid 2px rgb(255, 255, 255);
+}
+
+
+.mobile-menu .menu_btn {
+  position: absolute;
+  right: 0;
+
+
+}
+
+.ListItemMenu {
+  font-size: 3.8em;
+  padding: 0.2rem;
+  margin: 0.2rem;
+
+  text-decoration: none;
+
+}
+
+button {
+  all: unset;
+
+}
+
+.block_button_text {
+  text-transform: uppercase;
+  font-size: 0.775em;
+  letter-spacing: 0.25em;
+}
+
+.menu_btn svg {
+  display: block !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.menu_btn circle {
+  fill: none;
+}
+
+/* HOME */
+
+.section_home {
+  height: 87vh;
+  position: relative;
+  min-height: 41em;
+  height: 150vh;
+}
+
+@media (max-width: 400px) {
+  body {
+    background-color: #87ceeb;
+  }
+
+  .section_home {
+    height: 105vh;
+  }
+}
+
+
+
+.section_top_fold {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5em;
+  padding-bottom: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  position: relative;
+  margin: auto;
+  align-items: flex-start;
+  justify-content: start;
+  box-sizing: border-box;
+  ;
+  /* width: 84rem; */
+  max-width: 100rem;
+  /* it might not bee needed this height */
+  height: 150vh;
+}
+
+@media (max-width: 400px) {
+  body {
+    background-color: #87ceeb;
+  }
+
+  .section_top_fold {
+    height: 105vh;
+  }
+}
+
+
+
+.content {
+  width: 700px;
+}
+
+
+
+
+@media (min-width: 1600px) {
+  .section_top_fold .title {
+    font-size: 6.1em;
+  }
+}
+
+
+@media (min-width: 1400px) {
+  .section_top_fold .title {
+    font-size: 5.1em;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  .section_top_fold .title {
+    font-size: 4.1em;
+  }
+
+}
+
+
+@media (min-width: 769px) {
+  .section_top_fold .title {
+    font-size: 2.1em;
+    margin-right: -3em;
+  }
+}
+
+.section_top_fold .title {
+  font-size: 5.1em;
+  line-height: 1.25;
+  margin: 1.2em 0;
+  position: relative;
+  z-index: 1;
+  margin-bottom: -0.5em;
+  width: 150vh;
+
+}
+
+
+
+/* MOBILE */
+@media (max-width: 400px) {
+  body {
+    background-color: #87ceeb;
+  }
+
+  .section_top_fold .title {
+    font-size: 2.1em;
+  }
+
+
+}
+
+span {
+  margin: 0.1em;
+}
+
+.title1 {
+  transition-delay: 0.143s
+}
+
+.title2 {
+  transition-delay: 0.285s
+}
+
+.title3 {
+  transition-delay: 0.443s
+}
+
+.title4 {
+  transition-delay: 0.543s
+}
+
+.displayBlock {
+  display: block;
+}
+
+.section_top_fold .img {
+  text-align: right;
+}
+
+.section_top_fold img {
+  position: absolute;
+  height: auto;
+  width: 735px;
+  height: 860px;
+  max-width: 735px;
+}
+
+/* MOBILE */
+@media (max-width: 400px) {
+  body {
+    background-color: #87ceeb;
+  }
+
+  .section_top_fold img {
+    position: absolute;
+    height: auto;
+    top: 35%;
+    width: 350px;
+    height: 350px;
+    max-width: 735px;
+  }
+}
+
+h1 {
+  font-family: "Canela Web";
+  font-weight: 50;
+
+}
+
+em {
+  font-style: italic;
+}
+
+h1 em {
+  text-transform: none;
+}
+
+.fadeInRight {
+  animation-name: fadeInRight;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+.fadeInLeft {
+  animation-name: fadeInLeft;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+
+
+.marquee-wrap {
+  width: auto;
+  position: absolute;
+  bottom: 0;
+  background-color: #FAF6F3;
+  bottom: 0;
+  padding-top: 1em;
+  padding-bottom: 1.5em;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.marquee-wrap .heading {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 94.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: uppercase;
+  font-display: fallback;
+  font-size: 0.8em;
+  line-height: 1.55;
+}
+
+.marquee-wrap .marquee {
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.marquee-wrap .marquee ul {
+  animation: horizontalslide 50s linear infinite;
+  display: inline-block;
+}
+
+.marquee-wrap .marquee li {
+  display: inline-block;
+  font-weight: 100;
+  font-family: "Canela Web";
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+}
+
+li,
+ol,
+ul {
+  list-style: none;
+
+  margin: 0;
+  padding: 0px 25px;
+}
+
+@keyframes horizontalslide {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+
+}
+
+@media (min-width: 769px) {
+  .section_home_top_fold_wrap {
+    height: 100vh;
+    min-height: 43em;
+
+  }
+
+}
+
+
+@keyframes wiggleHoverAnimation {
+  0% {
+    transform: translateY(-.5em)
+  }
+
+  25% {
+    transform: translate(5px, -.5em)
+  }
+
+  50% {
+    transform: translate(-5px, -.5em)
+  }
+
+  75% {
+    transform: translateY(-.5em)
+  }
+}
+
+/* Section_Lead */
+
+.section_Lead {
+  height: 55vh;
+  position: relative;
+  min-height: 41em;
+  padding-left: 2.5rem;
+  padding-right: 1rem;
+  padding-top: 5em;
+  padding-bottom: 10em;
+}
+
+.section_Lead .content {
+  max-width: 76rem;
+  margin: auto;
+}
+
+.lead {
+  font-weight: 100;
+  font-family: "merriweather sans";
+  font-size: 2.1em;
+  line-height: 1.325;
+  max-width: 20em;
+}
+
+p {
+  margin-top: 0;
+}
+
+.section_Lead .columns {
+
+  margin-left: 25%;
+  max-width: 60em;
+  column-count: 2;
+  column-gap: 6em;
+
+}
+
+/* MOBILE */
+@media (max-width: 400px) {
+
+  .section_Lead .content .lead {
+    font-size: 1.1em;
+    max-width: 17em;
+  }
+
+  .section_Lead .content .columns {
+    margin-left: 14%;
+    width: 12em;
+    column-count: 1;
+    margin-top: 1.85em;
+  }
+
+
+}
+
+
+/* SECTION_SERVICES */
+
+
+.section_services {
+  padding-right: 1rem;
+  padding-bottom: 3em;
+  background-color: #000;
+  color: antiquewhite;
+
+
+}
+
+.section_services .title {
+  font-size: 5em;
+  margin-bottom: 0.8em;
+  padding-left: 1rem;
+}
+
+.section_services h2 {
+  margin: 2em 0;
+  padding: 0;
+  font-weight: 100;
+  font-family: "Canela Web";
+  line-height: 1.25;
+
+}
+
+.section_services ul {
+  position: relative;
+  border-top: solid 1px #FFF;
+  padding-left: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.section_services li {
+  position: relative;
+  border-top: solid 1px #FFF;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  padding-right: 7em;
+  color: rgb(255, 255, 255);
+
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 1s ease;
+
+
+  }
+}
+
+
+
+.section_services li:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+  color: rgb(8, 8, 8);
+
+}
+
+
+.section_services li .heading {
+  font-size: 2.4em;
+  width: 20em;
+
+}
+
+
+.section_services li a {
+  z-index: 2;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  padding-left: 1.3em;
+
+}
+
+.section_services li a:focus .heading,
+.section_services li a:hover .heading {
+  transform: translateX(1em);
+  transition: ease-out 1.0s;
+}
+
+
+.section_services li a:hover {
+  color: #000
+}
+
+
+
+.section_services li p {
+  max-width: 25em;
+  margin-top: 0;
+  margin: 1.65em 0;
+  /* position: absolute;
+  right: 9em */
+}
+
+
+
+/* MOBILE */
+@media (max-width: 400px) {
+
+  .section_services {
+
+    font-size: 1.1em;
+
+  }
+
+  .section_services .title {
+    font-size: 1.5em;
+  }
+
+  .section_services li .heading {
+    font-size: 1.5em;
+  }
+
+
+}
+
+
+.section_services li .arrow {
+  position: absolute;
+  right: 1.5em;
+  top: 2em;
+  width: 2em;
+}
+
+
+.section_services svg {
+  fill: rgb(255, 255, 255);
+
+}
+
+.section_services li a:focus svg,
+.section_services li a:hover svg {
+  fill: #000;
+  transition: ease-out 1.0s;
+}
+
+
+/* "section_testimonial" */
+
+
+.section_testimonials {
+
+  position: relative;
+}
+
+
+.section_testimonials ul {
+  padding: 0;
+
+}
+
+.section_testimonials li {
+  width: 100vw;
+  height: 100vh;
+  background-color: #bebcbc;
+  padding: 0;
+  margin: 0;
+  position: sticky;
+  top: 0;
+  transition: 5s ease;
+
+
+}
+
+.section_testimonials .content {
+  position: sticky;
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+
+.section_testimonials .over-revealer {
+  box-shadow: 0 -16px 44px #ffffff;
+}
+
+.section_testimonials .content .content_wrapper {
+  padding-top: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  min-height: 80vh;
+  margin-top: 4em;
+  padding-top: 4em;
+  height: auto;
+  width: 100%;
+  margin-right: 0;
+
+
+
+}
+
+
+
+.section_testimonials .content .nav-title {
+  position: absolute;
+  top: 3em;
+  font-size: 0.8em;
+  left: 2rem;
+}
+
+
+.section_testimonials blockquote {
+
+
+  max-width: 24em;
+  font-style: normal;
+  font-size: 1.4em;
+  line-height: 1.5;
+  display: flex;
+  justify-content: end;
+  align-items: start;
+  flex-direction: column;
+  margin-bottom: 3em;
+}
+
+@media (max-width: 1200px) {
+  .section_testimonials blockquote {
+    max-width: 20em;
+  }
+}
+
+
+.section_testimonials blockquote .reference:before {
+  width: 2.25em;
+  margin-right: 2em;
+}
+
+.section_testimonials blockquote .reference:before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 1.25em;
+  height: 1px;
+  background-color: #000;
+  margin-right: 1em;
+}
+
+.section_testimonials .content_wrapper .img {
+  margin-left: 10%;
+  width: 45%;
+  height: 95%;
+  display: block;
+
+
+}
+
+
+@media (max-width: 1300px) {
+  .section_testimonials .content_wrapper .img {
+    width: 35%;
+
+  }
+}
+
+
+.section_testimonials .content_wrapper .img .imgbackground {
+
+  width: 100%;
+  height: auto;
+  background: cover;
+
+}
+
+
+
+/* MOBILE */
+@media (max-width: 400px) {
+
+  .section_testimonials li {
+    width: auto;
+    height: 80vh;
+    padding: 0;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    transition: 5s ease;
+
+
+  }
+
+
+
+  .section_testimonials blockquote {
+    font-size: 1.0em;
+  }
+
+  .section_testimonials .content .content_wrapper {
+
+    height: auto;
+  }
+}
+
+
+.section_testimonials .content_wrapper img {
+  background-size: cover;
+
+}
+
+.section_testimonials .active2 {
+  height: 95vh;
+  width: 100%;
+
+
+}
+
+/* SECTION-PROJECT */
+
+.section_project {
+
+  margin: 6em 0;
+  position: relative;
+
+  box-sizing: border-box;
+}
+
+.side-heading {
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  top: 12em;
+  left: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "sweet-sans-pro", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+
+
+}
+
+.side-heading span {
+  white-space: nowrap;
+  display: block;
+  transform: rotate(270deg)
+}
+
+.section_project .content {
+  /* margin: 0 6em; */
+  position: absolute;
+  left: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row-reverse;
+  width: auto;
+
+
+}
+
+.section_project .content .text {
+
+  width: 46%;
+}
+
+.section_project p {
+  padding-right: 2em;
+
+}
+
+.section_project .content .heading {
+  position: relative;
+  z-index: 1;
+  line-height: 1.15;
+  font-size: 5.1em;
+  font-weight: 100;
+  margin-bottom: 0.35em;
+  white-space: nowrap;
+  font-family: "Canela Web"
+}
+
+@media (max-width: 400px) {
+
+  .side-heading {
+    font-size: 0.8em;
+    left: 1em;
+    top: 20em;
+  }
+
+  .section_project .content {
+    position: absolute;
+    top: 3em;
+  }
+
+  .section_project .content .text {
+
+    width: 100%;
+    margin: 10px;
+  }
+
+
+  .section_project .content .heading {
+    font-size: 2.1em;
+  }
+}
+
+
+.read-more {
+  cursor: pointer;
+  font-weight: 100;
+  font-family: "Canela Web";
+  font-style: italic;
+  text-decoration: underline;
+  padding: 0;
+  display: inline-block;
+  font-size: 1.2em;
+  position: relative;
+}
+
+
+a {
+  color: inherit;
+  text-decoration: underline;
+
+}
+
+.section_project .content .img {
+
+  width: 54%;
+  height: 590px;
+  /* background-color: #4a26cc; */
+
+}
+
+.section_project .content .img img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 400px) {
+  .section_project .content .img {
+    height: auto;
+    width: 100%;
+    margin-bottom: -4em;
+    padding: 20px;
+  }
+}
